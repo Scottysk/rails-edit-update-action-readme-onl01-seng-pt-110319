@@ -7,5 +7,6 @@ class ApplicationController < ActionController::Base
   end
      
   def update
+    raise params.inspect
   end
 end
